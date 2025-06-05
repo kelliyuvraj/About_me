@@ -1,5 +1,5 @@
 {
-  "name": "About_me",
+  "name": "vite_react_shadcn_ts",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,13 +9,8 @@
     "build": "vite build",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
-    "predeploy": "npm run build",
-    "preview": "vite preview",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
 },
-```
-- **`predeploy`** runs automatically before `deploy` and builds your site into `dist/`.
-- **`deploy`** uses `gh-pages` to publish the contents of `dist/` to the `gh-pages` branch.
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
     "@radix-ui/react-accordion": "^1.2.0",
